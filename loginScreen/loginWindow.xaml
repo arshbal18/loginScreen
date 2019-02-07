@@ -13,8 +13,9 @@
             <Label Content="Username" FontSize="18" Foreground="White"/>
             <TextBox Name="txtUsername" Background="Chocolate" Foreground="White" FontSize="18"/>
             <Label Content="Password" Foreground="White" FontSize="18"/>
-            <TextBox Name="txtPassword" Background="Chocolate" Foreground="White" FontSize="18"/>
-            <Button Content="SUBMIT" FontSize="20" Foreground="White" Background="Chocolate" Margin="60 10"></Button>
+            <PasswordBox Name="txtPassword" Background="Chocolate" Foreground="White" FontSize="18"/>
+            <Button Name="btnSubmit"  Click="BtnSubmit_OnClick" Content="Submit"
+                    FontSize="20" Foreground="White" Background="Chocolate" Margin="60 10"></Button>
    </StackPanel>
     </Border>
 </Window>

@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Congratulations your login is successful!!" Foreground="Green" Margin ="20" FontSize="25" HorizontalAlignment="Center"></Label>
     </Grid>
 </Window>
